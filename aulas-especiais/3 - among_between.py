@@ -1,7 +1,7 @@
-def among_between(quantidade_pessoas):
-    if(quantidade_pessoas == 2):
+def among_between(quantidade):
+    if(quantidade == 2):
         print("Between")
-    elif(quantidade_pessoas > 2):
+    elif(quantidade > 2):
         print("Among")
     else:
         print("Quantidade Invalida")
